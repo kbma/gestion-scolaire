@@ -55,7 +55,9 @@ class EtudiantController extends Controller
         $valeurs= $request::all();
         $etudiant = Etudiant::where('id', '=', $valeurs['id']) ->first();
         $etudiant->save();
-        return back()->with('msg', 'Opération effectuée avec succès.');
+
+        var_dump($request);
+        //return back()->with('msg', 'Opération effectuée avec succès.');
 
     }
 
