@@ -1,0 +1,11 @@
+.canvasjs-chart-credit {
+    display: none;
+}
+#tags{
+    position: absolute;
+    top: 34px;
+    left: 85px;
+    width: 500px;
+    z-index: 10;
+    height: 124px;
+}
